@@ -64,12 +64,15 @@ h2 {
 
 .border-right-rounded {
   border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+}
+
+.border-right-bottom-rounded {
+   border-bottom-right-radius: 15px; 
 }
 
 .border-left-rounded {
-  border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 strong {
