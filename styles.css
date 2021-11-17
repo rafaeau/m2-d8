@@ -83,9 +83,9 @@ h2 {
   border-bottom-left-radius: 15px;
 }
 
-/* .cards {
-    min-width: 400px;
-} */
+strong {
+    color: black;
+}
 
 .bottun-transparent {
     border: 1px solid;
@@ -98,6 +98,8 @@ h2 {
     display: block;
   }
   
-  strong {
-    font-size: x-large;
+  footer > .row .col-4 p:first-child {
+      font-weight: 700;
+      font-size: 18px;
+      color: rgb(56, 56, 56);
   }
