@@ -21,65 +21,83 @@
 } */
 
 .first-cel {
-    color: white;
-    display: flex;
-    border: 1px solid black;
-    background-color: rgb(107,181,107);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  color: white;
+  display: flex;
+  border: 1px solid black;
+  background-color: rgb(107, 181, 107);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .second-col {
-    height: 100%;
-    background-color:rgb(41,155,255);
-    border: 1px solid black;
-    color: white;
-    display: flex;
-    align-items: flex-end;
-    text-align: center;
+  height: 100%;
+  background-color: rgb(41, 155, 255);
+  border: 1px solid black;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
 }
 
 h2 {
-    margin-top: 10px;
-    align-items: center;
-    text-align: center;
+  margin-top: 10px;
+  align-items: center;
+  text-align: center;
 }
 
 .first-row {
-    background-color: rgb(255,247,189);
+  background-color: rgb(255, 247, 189);
 }
 
 .second-row {
-    background-color: rgb(255,237,105);
+  background-color: rgb(255, 237, 105);
 }
 
 .third-row {
-    background-color: rgb(255,228,31);
+  background-color: rgb(255, 228, 31);
 }
 
 .container-main {
-    font-size: 12px;
-    font-weight: 700;
-    border-radius: 15px;
-    border: 3px solid black;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 15px;
+  border: 3px solid black;
+}
+
+.height-400 {
+  height: 400px;
+}
+
+.border-left-bold {
+  border-left: 3px solid black;
+}
+
+.border-right-rounded {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.border-left-rounded {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+/* .cards {
+    min-width: 400px;
+} */
+
+.bottun-transparent {
+    border: 1px solid;
+    border-radius: 5px;
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .button-fill {
+    display: block;
   }
   
-  .height-400 {
-    height: 400px;
+  strong {
+    font-size: x-large;
   }
-  
-  .border-left-bold {
-    border-left: 3px solid black;
-  }
-  
-  .border-right-rounded {
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-  }
-  
-  .border-left-rounded {
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-  }
-  
